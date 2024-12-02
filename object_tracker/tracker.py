@@ -163,7 +163,7 @@ class Tracker:
             'truck': (0, 255, 255),  # Yellow
         }
 
-        cy1 = 1100
+        cy1 = frame.orig_shape[1]*0.8
         offset = 6
 
         counter = 0
@@ -223,10 +223,10 @@ class Tracker:
     #     if not isinstance(save_directory, (str, os.PathLike)):
     #         raise TypeError(
     #             f"save_directory must be a string or os.PathLike object, not {type(save_directory).__name__}")
-    #
+    
     #     # Create the directory if it doesn't exist
     #     os.makedirs("data/output", exist_ok=True)
-    #
+    
     #     # Ensure the coordinates are scalar values
     #     x1, y1, x2, y2 = map(lambda v: int(v.item() if hasattr(v, "item") else v), [x1, y1, x2, y2])
     #
@@ -239,5 +239,56 @@ class Tracker:
     #     # Save the cropped image
     #     cv2.imwrite(filename, crop)
     #     print(f"Colored image saved at: {filename}")
+
+##refactoring code
+
+# from ultralytics import YOLO
+# import cv2
+
+# class Tracker:
+
+#     def __init__(self):
+#         self.model = YOLO("yolov8x.pt")
+
+#     def process_video(self, frames):
+#         detections = []
+#         output_video_frames = []
+        
+#         color_dict = { 
+#             "car": (0,255,0), 
+#             "bus": (0,0,255), 
+#             "truck": (255,0,0), 
+#             "motorcycle": (255,255,0), 
+#             "bicycle": (0,255,255) 
+#         }
+        
+#         valid_classes = ["car", "bus", "truck", "motorcycle", "bicycle"]
+        
+#         for frame in frames:
+#             results = self.model.track(frame, persist=True)[0]
+#             name_dict = results.names
+            
+#             frame_detections = {}
+            
+#             for box in results.boxes:
+#                 track_id = int(box.id.tolist()[0])
+#                 result = box.xyxy.tolist()[0]
+#                 object_class_id = box.cls.tolist()[0]
+#                 object_class_name = name_dict[object_class_id]
+                
+#                 if object_class_name in valid_classes:
+#                     frame_detections[track_id] = {object_class_name: result}
+                    
+#                     object_color = color_dict[object_class_name]
+#                     x1, y1, x2, y2 = result
+#                     label = f"{object_class_name} {track_id}"
+                    
+#                     cv2.putText(frame, label, (int(x1), int(y1 - 10)),cv2.FONT_HERSHEY_SIMPLEX, 0.5, object_color, 2)
+#                     cv2.rectangle(frame, (int(x1), int(y1)),(int(x2), int(y2)), object_color, 2)
+            
+#             detections.append(frame_detections)
+#             output_video_frames.append(frame)
+        
+#         return output_video_frames
 
 
