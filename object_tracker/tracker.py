@@ -187,7 +187,8 @@ class Tracker:
                     cv2.circle(frame, (cx, cy), 4, (255, 0, 0), -1)
 
                     #
-                    cv2.line(frame, (450, 1100), (2100, 1100), (255, 255, 255), 1)
+                    cv2.line(frame, (frame.orig_shape[0]*0.2, frame.orig_shape[1]*0.8), (frame.orig_shape[0]*0.8, frame.orig_shape[1]*0.8), (255, 255, 255), 1)
+
 
                     # Put text on the bbox
                     label = f"{object_class} {track_id}"
