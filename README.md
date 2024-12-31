@@ -14,20 +14,25 @@ This project implements an intelligent traffic management system utilizing Autom
 
 ## 🏗️ Project Structure
 ```
-├── CV_Basics/                  # Computer vision and OCR learning materials
-├── Data/                       # Input data and videos
-├── Interpolated_results/       # Interpolated CSV files for visualization
-├── number_plate_detection_model_training/  # Model training files
-├── object_tracker/            # Main detection and vehicle tracking code
-├── output_videos/            # Generated result videos
-├── results/                  # Initial detection CSV files
-├── testing/                 # Project testing files
-├── .env                     # Secret keys and configuration
-├── .gitignore              # Git ignore rules
-├── add_missing_data.py     # Data interpolation script
-├── main.py                 # Main execution file
-├── requirements.txt        # Project dependencies
-└── visualize.py           # Video visualization script
+ANPR_and_ATCC_for_Smart_Traffic_Management/
+├── .idea/
+├── CV_Basics/                      # Computer vision and OCR learning materials
+├── Image_processing/               # 
+├── Interpolation/
+├── Results/
+├── Testing/
+├── Video_processing/
+├── YOLO_training/
+├── interpolated_results/
+├── object_tracker/
+├── results/
+├── utils/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── main.py
+└── requirements.txt
+
 ```
 
 ## 🚀 Workflow
