@@ -17,37 +17,39 @@ This project implements an intelligent traffic management system utilizing Autom
 ANPR_and_ATCC_for_Smart_Traffic_Management/
 ├── .idea/
 ├── CV_Basics/                      # Computer vision and OCR learning materials
-├── Image_processing/               # 
-├── Interpolation/
-├── Results/
-├── Testing/
-├── Video_processing/
-├── YOLO_training/
-├── interpolated_results/
-├── object_tracker/
-├── results/
-├── utils/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── main.py
-└── requirements.txt
+├── Image_processing/               # Image processing for clearer detections
+├── Interpolation/                  # Data interpolation script
+├── Testing/                        # Project testing files
+├── Video_processing/               # Visualizing and video processing files
+├── YOLO_training/                  # Fine-tuning YOLO for license plate detection
+├── interpolated_results/           # Interpolated CSV files for visualization
+├── object_tracker/                 # Main detection and vehicle tracking code
+├── results/                        # Initial detection CSV files
+├── utils/                          # Code for OCR corrections
+├── .gitignore                      # Git ignore rules
+├── main.py                         # Main execution file
+└── requirements.txt                # Library installations
 
 ```
 
 ## 🚀 Workflow
 1. Execute `main.py` to perform initial vehicle detection and generate CSV file in `results/` directory
 2. Run `add_missing_data.py` to perform data interpolation and generate enhanced CSV file in `Interpolated_results/` directory
-3. Run `visualize.py` to create visualization video using interpolated data, saved in `output_videos/` directory
+3. Run `Video_processing/visualize.py` to create visualization video using interpolated data, saved in `output_videos/` directory
 
 ## 🛠️ Setup and Installation
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd anpr-atcc-traffic-management
+git clone https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management
+cd ANPR_and_ATCC_for_Smart_Traffic_Management
 ```
 
-2. Create and activate virtual environment (recommended):
+2. Create and activate conda environment (recommended):
+```bash
+conda create --name stm 
+conda activate stm
+```
+Note: Can be done using virtual environment also
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -58,7 +60,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Configure environment variables:
+4. Configure environment variables (If using virtual environment):
 - Create a copy of `.env.example` (if provided) and rename it to `.env`
 - Update the necessary secret keys and configurations
 
@@ -83,8 +85,6 @@ python visualize.py
 ```
 
 ## 📄 License
-[Add your license information here]
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management/blob/main/LICENSE) file for details.
 
-## 📞 Contact
-[Add your contact information here]
 
