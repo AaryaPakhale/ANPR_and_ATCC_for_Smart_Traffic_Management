@@ -34,7 +34,7 @@ ANPR_and_ATCC_for_Smart_Traffic_Management/
 
 ## 🚀 Workflow
 1. Execute `main.py` to perform initial vehicle detection and generate CSV file in `results/` directory
-2. Run `add_missing_data.py` to perform data interpolation and generate enhanced CSV file in `Interpolated_results/` directory
+2. Run `Interpolation/add_missing_data.py` to perform data interpolation and generate enhanced CSV file in `interpolated_results/` directory
 3. Run `Video_processing/visualize.py` to create visualization video using interpolated data, saved in `output_videos/` directory
 
 ## 🛠️ Setup and Installation
