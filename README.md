@@ -49,7 +49,7 @@ cd ANPR_and_ATCC_for_Smart_Traffic_Management
 conda create --name stm 
 conda activate stm
 ```
-Note: Can be done using virtual environment also
+    Note: Can be done using virtual environment also
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
