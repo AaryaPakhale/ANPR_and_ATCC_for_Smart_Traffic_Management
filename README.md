@@ -31,7 +31,7 @@ We implement an intelligent traffic management system utilizing Automatic Number
 - **Deep Learning**: Object detection models (e.g., YOLO)
 
 ### Results
-- You can file the result videos at these locations : [Video-1](https://drive.google.com/file/d/1z7LEhVbaaN2FSX3jxYZvDRm6PXXoRTGL/view?usp=sharing)
+- [Video-1](https://drive.google.com/file/d/1z7LEhVbaaN2FSX3jxYZvDRm6PXXoRTGL/view?usp=sharing)
                                                    [Video-2](https://drive.google.com/file/d/1IvPMZraIPtYgs1NVtuqPxiFVSoWfwiUL/view?usp=sharing)
 
 ## 🏗️ Project Structure
