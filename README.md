@@ -6,13 +6,13 @@ Welcome to the GitHub repository for our cutting-edge solution for modern traffi
 
 - [ Project Overview](#-project-overview)
 - [Key Features](#key-features)
-- [Technologies Used](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#technologies-used)
-- [Results](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#results)
-- [Project Structure](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#%EF%B8%8F-project-structure)
-- [Workflow](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#-workflow)
-- [Setup and Installation](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#%EF%B8%8F-setup-and-installation)
-- [Running the Project](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#%EF%B8%8F-running-the-project)
-- [License](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#-license)
+- [Technologies Used](#technologies-used)
+- [Results](#results)
+- [Project Structure](#%EF%B8%8F-project-structure)
+- [Workflow](#-workflow)
+- [Setup and Installation](#%EF%B8%8F-setup-and-installation)
+- [Running the Project](#%EF%B8%8F-running-the-project)
+- [License](#-license)
 
 ---
 
