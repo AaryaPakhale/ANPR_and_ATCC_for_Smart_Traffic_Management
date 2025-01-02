@@ -1,23 +1,23 @@
 # ANPR and ATCC for Smart Traffic Management
 
-Welcome to the ANPR and ATCC for Smart Traffic Management repository! This project aims to revolutionize traffic management in smart city environments by utilizing advanced technologies like Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC).
+Welcome to the GitHub repository for our cutting-edge solution for modern traffic management! This project leverages Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC) to optimize traffic systems in smart city environments. By combining advanced technologies and data-driven approaches, we aim to enhance efficiency, reduce congestion, and pave the way for smarter urban mobility. Dive into the repository to explore innovative tools, algorithms, and implementations that contribute to this transformative initiative!
 
 ## Table of Contents
 
-- [ Project Overview](#introduction)
-- [Key Features](#project-structure)
-- [Technologies Used]
-- [Results](#features)
-- [Project Structure](#technologies-used)
-- [Workflow](#setup-instructions)
-- [Setup and Installation](#usage)
-- [Running the Project](#output)
-- [License](#license)
+- [ Project Overview](#-project-overview)
+- [Key Features](#key-features)
+- [Technologies Used](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#technologies-used)
+- [Results](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#results)
+- [Project Structure]([#technologies-used](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#%EF%B8%8F-project-structure))
+- [Workflow]([#setup-instructions](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#-workflow))
+- [Setup and Installation]([#usage](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#%EF%B8%8F-setup-and-installation))
+- [Running the Project]([#output](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#%EF%B8%8F-running-the-project))
+- [License]([#license](https://github.com/AaryaPakhale/ANPR_and_ATCC_for_Smart_Traffic_Management?tab=readme-ov-file#-license))
 
 ---
 
 ## 🎯 Project Overview
-This project implements an intelligent traffic management system utilizing Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC). By leveraging Deep Learning and Object Detection techniques, the system automates traffic monitoring and control in smart city environments.
+We implement an intelligent traffic management system utilizing Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC). By leveraging Deep Learning and Object Detection techniques, this system automates traffic monitoring and control in smart city environments.
 
 ### Key Features
 - 📝 Automatic Number Plate Recognition (ANPR)
@@ -31,8 +31,8 @@ This project implements an intelligent traffic management system utilizing Autom
 - **Deep Learning**: Object detection models (e.g., YOLO)
 
 ### Results
-- You can file the result video at this location : [Link-1](https://drive.google.com/file/d/1z7LEhVbaaN2FSX3jxYZvDRm6PXXoRTGL/view?usp=sharing)
-                                                   [Link-2](https://drive.google.com/file/d/1IvPMZraIPtYgs1NVtuqPxiFVSoWfwiUL/view?usp=sharing)
+- You can file the result videos at these locations : [Video-1](https://drive.google.com/file/d/1z7LEhVbaaN2FSX3jxYZvDRm6PXXoRTGL/view?usp=sharing)
+                                                   [Video-2](https://drive.google.com/file/d/1IvPMZraIPtYgs1NVtuqPxiFVSoWfwiUL/view?usp=sharing)
 
 ## 🏗️ Project Structure
 ```
