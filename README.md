@@ -5,7 +5,7 @@ Welcome to the GitHub repository for our cutting-edge solution for modern traffi
 ## Table of Contents
 
 - [ Project Overview](#-project-overview)
-- [Key Features](#key-features)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Results](#results)
 - [Project Structure](#%EF%B8%8F-project-structure)
@@ -19,7 +19,7 @@ Welcome to the GitHub repository for our cutting-edge solution for modern traffi
 ## 🎯 Project Overview
 We implement an intelligent traffic management system utilizing Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC). By leveraging Deep Learning and Object Detection techniques, this system automates traffic monitoring and control in smart city environments.
 
-### Key Features
+### Features
 - 📝 Automatic Number Plate Recognition (ANPR)
 - 🚦 Automatic Traffic Classification and Control (ATCC)
 - 📊 Data interpolation for accurate tracking
