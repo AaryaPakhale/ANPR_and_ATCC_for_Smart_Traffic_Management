@@ -1,6 +1,6 @@
 # ANPR and ATCC for Smart Traffic Management
 
-Welcome to the GitHub repository for our cutting-edge solution for modern traffic management! This project leverages Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC) to optimize traffic systems in smart city environments. By combining advanced technologies and data-driven approaches, we aim to enhance efficiency, reduce congestion, and pave the way for smarter urban mobility. Dive into the repository to explore innovative tools, algorithms, and implementations that contribute to this transformative initiative!
+Welcome to the GitHub repository for our cutting-edge solution for modern traffic management! This project leverages Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC) to optimize traffic systems in smart city environments. Dive into the repository to explore innovative tools, algorithms, and implementations that contribute to this transformative initiative!
 
 ## Table of Contents
 
