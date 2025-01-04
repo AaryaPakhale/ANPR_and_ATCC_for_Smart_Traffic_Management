@@ -106,12 +106,12 @@ python main.py
 
 3. Perform data interpolation:
 ```bash
-python add_missing_data.py
+python Interpolation/add_missing_data.py
 ```
 
 4. Generate visualization:
 ```bash
-python visualize.py
+python Video_processing/visualize.py
 ```
 
 ## 📄 License
