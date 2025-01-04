@@ -121,7 +121,7 @@ def read_license_plate(license_plate_crop):
     for detection in detections:
         bbox, text, score = detection
 
-        text = text.upper().replace(' ', '')
+        text = text.upper().replace(' ', '').replace('"', '').replace(',', '')
 
         if license_complies_format(text):
             return format_license(text), score
